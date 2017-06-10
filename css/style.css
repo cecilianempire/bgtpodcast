@@ -1,0 +1,154 @@
+/************ 
+CONNECT STYLE 
+*************/
+
+@import "import-style.css";
+
+
+
+/************ 
+GENERAL
+*************/
+
+body {
+  color: #878787;
+  margin: 0;
+}
+
+.t-border {
+  border-top: 2px solid lightgrey;
+  margin: 10px;
+  padding: 80px;
+  text-align: center;
+}
+
+.primary-content {
+  margin-bottom: 100px;
+}
+
+:focus {
+  background-color: pink;
+  color: white; 
+}
+
+p {
+  font-size: 20px;
+}
+
+
+/************ 
+HEADER
+*************/
+
+.main-header {
+  background-color: pink;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 90px;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+/************ 
+ABOUT
+*************/
+
+.about {
+  padding: 4%;
+  text-align: center;
+  border-top: 5px solid #ffe6e9;
+}
+
+h2 {
+  font-size: 53px;
+}
+
+#email {
+  background-color: pink;
+  color: white;
+}
+
+
+
+/************ 
+PRIMARY CONTENT
+*************/
+
+h3 {
+  font-size: 20px;
+  color: #48525c;
+}
+
+.primary-content {
+  text-align: center; 
+}
+
+#listen-now-button {
+  background-color: pink;
+  color: white;
+}
+
+li {
+  display: inline;
+  padding: 0 12px;
+  border-right: solid 1px;
+}
+
+/************ 
+FOOTER
+*************/
+
+#main-footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: #ffe6e9 10px solid;
+}
+
+#back-to-top {
+  background-color: pink;
+  color: white;
+}
+
+
+
+/************ 
+HOVER & LINK CSS
+*************/
+
+a:link {
+  color: pink;
+}
+
+a:visited {
+  color: pink;
+}
+
+a:hover {
+  background-color: pink;
+  color: white;
+}
+
+#cta-header:hover {
+  background-color: white;
+  color: pink;
+}
+
+#listen-now-button:hover {
+  background-color: #ffe6e9;
+  color: white;
+}
+
+#email:hover {
+  background-color: #ffe6e9;
+  color: white;
+}
+
+#back-to-top:hover {
+  background-color: #ffe6e9;
+  color: white;
+}
