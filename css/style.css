@@ -208,7 +208,7 @@ h3 {
 .advice, 
 .etiquette {
   padding: 0 5%;
-  width: 46.5%;
+  width: 50%;
 }
 
 .etiquette {
@@ -228,14 +228,6 @@ h3 {
 
 ol {
   list-style-type: none;
-}
-
-/* FLOAT CLEARFIX -------*/
-
-.group::after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 
@@ -284,3 +276,50 @@ a:hover {
   color: white;
 }
 
+
+
+/* FLOAT CLEARFIX -------*/
+
+.group::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/************ 
+MEDIA QUERIES
+*************/
+
+@media (max-width: 1024px) {
+  .primary-content,
+  .secondary-content {
+      width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .primary-content,
+  .secondary-content {
+      width: 100%;
+      padding: 20px;
+  }
+
+  .advice, 
+  .etiquette {
+    float: none; 
+    padding: 0 10%;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+.cta-header {
+    font-size: 25px;
+  }
+
+}
